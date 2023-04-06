@@ -1,9 +1,16 @@
 # ImageToSchematic
-A Basic code for convert a image with format .png or jpg to a MapEditorRebord Schematic, This bot gonna be open-source soon.
-But for the moment you can invite him with this :
-- https://discord.com/api/oauth2/authorize?client_id=1091043319523594431&permissions=8&scope=bot%20applications.commands
+Welcome to the README for this project, which is a basic Discord bot that allows for the conversion of PNG or JPG images into schematics made of Unity PrimitivesObject for use with the MapEditorReborn plugin in SCP: Secret Laboratory. The conversion is done by creating a grid of Unity PrimitivesObject based on each pixel in the source image. Each pixel is then mapped to a specific Unity PrimitivesObject using a pre-defined lookup table.
 
 ## Requirements
 - Schematic uses [MapEditorReborn](https://github.com/Michal78900/MapEditorReborn).
 - /Schematic `Px` `Url`.
 - Image need to be a `.png` or `.jpg` to work.
+
+## Config
+
+```js
+{
+    "Token": "PUT_YOUR_BOT_TOKEN_HERE",
+    "Output": "./Json",
+}
+```
